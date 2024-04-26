@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    flex-direction: column;
+
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    background-image: url(images/image-qr-code.png);
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+    
+}
+
+.container .innertext, h1, p {
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+}
+.attribution {
+    margin-top: 20px;
+}
